@@ -1,4 +1,4 @@
-package analysis
+package fatsagc
 
 import (
 	"log"
@@ -11,7 +11,7 @@ import (
 	"github.com/biogo/biogo/seq/linear"
 )
 
-func FATSACalculateGC(fatsaDataLocation string) float64 {
+func CalculateGC(fatsaDataLocation string) float64 {
 	file, err := os.ReadFile(fatsaDataLocation)
 	if err != nil {
 		log.Fatal(err)

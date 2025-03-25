@@ -1,0 +1,2 @@
+>test_equal_gc_at
+GCGGATAT

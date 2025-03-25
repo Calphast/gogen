@@ -1,0 +1,2 @@
+>test_mixed_gc
+ATGCGCATA

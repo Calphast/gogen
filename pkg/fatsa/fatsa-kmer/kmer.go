@@ -1,4 +1,4 @@
-package analysis
+package fatsakmer
 
 import (
 	"log"
@@ -11,7 +11,7 @@ import (
 	"github.com/biogo/biogo/seq/linear"
 )
 
-func FATSAKmerCount(fatsaDataLocation string, k int) map[string]int {
+func KmerCount(fatsaDataLocation string, k int) map[string]int {
 	file, err := os.ReadFile(fatsaDataLocation)
 	if err != nil {
 		log.Fatal(err)
